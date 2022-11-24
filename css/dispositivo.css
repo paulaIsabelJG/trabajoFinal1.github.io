@@ -1,0 +1,550 @@
+*{
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+/* HEADER*/
+
+header nav{
+    margin-top: 92px;
+    background-color: lightskyblue;
+    position: fixed; 
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+header nav ol{
+    display: flex;
+    width: 100%;
+}
+nav ol li{
+    text-align: center;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    justify-items: center;
+
+    border: 1px solid rgb(69, 103, 226);
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(49, 114, 212);
+    
+    text-shadow: 0 -1px 0 rgba(20, 17, 207, 0.5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.594) inset, 0 1px 3px rgba(0,0,0,.2);
+    
+}
+nav ol li:hover {
+    background-image: linear-gradient(#3b9ad5 10%,rgb(53, 110, 202) 100%);
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+nav ol{
+    list-style: none;
+}
+img#portada{
+    width: 1024px;
+    margin-top: 170px;
+}
+h1{
+    position: fixed; 
+    z-index: 100;
+    width: 100%;
+    background-color: rgb(0, 191, 255);
+    width: 1024px;
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif; 
+    color: white;
+}
+
+header p{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: -70px;
+    color: rgb(29, 82, 205);
+}
+
+#seccion1, #seccion2, #seccion3, #importancia, #referencias{
+    padding-top: 180px;
+}
+
+h2{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3b9ad5;
+    border-width: 4px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #3b9ad5;
+}
+
+/*Seccion1*/
+#seccion1 #divseccion1{
+    display: flex;
+}
+
+#div1_1, #div1_2{
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    background-color: #cbebfd;
+    border-radius: 20px;
+    width: 450px;
+    height: 480px;
+    display: inline-block;
+    
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#seccion1 img{
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+#seccion1 p{
+    width: 400px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+/*CARACTERISTICAS*/
+#div2_1{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+}
+#div2_1 p{  
+    text-indent: 40px;
+}
+#p1{
+    padding-top: 10px;
+    margin-left: 250px;
+    margin-bottom: 15px;
+}
+#img1, #img2{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 105px;
+    position: absolute;
+}
+#img1{
+    margin-left: 130px;
+}
+#p2{
+    margin-left: 20px;
+    margin-right: 450px;
+    margin-bottom: 15px;
+}
+#p3{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#img3{
+    width: 430px;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -15px;
+    border-radius: 20px;
+}
+/*Características: ventajas y desventajas*/
+#ventajasydesventajas{
+    background-color: #cbebfd;
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    display: flex;
+}
+
+#ventajas, #desventajas{
+    background-color: white;
+    margin: 15px;
+    line-height: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 450px;
+    height: 550px;
+    
+    padding: 10px; 
+}
+#ventajas{
+    border-color: green; 
+}
+#desventajas{
+    border-color: red;
+}
+#ventajasydesventajas h3{
+    text-align: center;
+    list-style: none;
+    border-top: 0;
+    border-bottom: 2px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase; 
+}
+#ventajas h3{
+    border-color: green;
+    color: green
+}
+#desventajas h3{
+    border-color: red;
+    color: red;
+}
+
+#ventajasydesventajas ul{
+    margin-top: 15px;
+    list-style-type:decimal;
+}
+
+#ventajas li{
+    color: green; 
+}
+#desventajas li{
+    color: red;
+}
+
+#ventajas p, #desventajas p{
+    color: black;
+}
+
+#ventajasydesventajas p{
+    text-indent: 15px;
+}
+
+/*Caracteristicas: ejemplo*/
+#ejemplo{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    text-indent: 40px;
+    
+    display: flex;
+}
+#ejemplo div{
+    width: 750px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+
+#ejemplo p{
+    width: 600px;
+}
+#ejemplo img{
+    display: inline-block;
+    border-radius: 20px;
+}
+#ejemplo #ej1{
+    margin-right: 50px;
+    width: 250px;
+}
+#ejemplo #ej2{
+    margin-top: 10px;
+    width: 600px;
+}
+/*Ejemplo2*/
+#ejemplo2{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    text-indent: 40px;
+    padding: 20px;
+}
+#ejemplo2 div{
+    display: flex;
+    margin-top: 10px;
+}
+#ejemplo2 img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+/*FUNCIONAMIENTO*/
+#seccion3 img{
+    width: 400px;
+}
+#seccion3_1, #seccion3_2{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+
+    display: flex; 
+    flex-direction: column;
+}
+/*Seccion3.1*/
+#seccion3_1 #parrafo1{
+    text-align: center;
+    margin: 15px;
+}
+#seccion3_1{
+    background-color: #cbebfd;
+}
+#seccion3_1 div {
+    margin:15px;
+    margin-top: 0px;
+    display: flex;
+}
+#seccion3_1 ol{
+    border-style: solid;
+    border-width: 3px; 
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #3b9ad5;
+    list-style: decimal;
+    
+}
+#seccion3_1 ol li p{
+    text-indent: 30px;
+    margin-right: 15px;
+}
+
+
+#seccion3_1 h3{
+    text-align: center;
+    color: #3b9ad5;
+    letter-spacing: 2px;
+    border-color: #3b9ad5;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+#imgseccion3_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion3_1 img{
+    margin-left: 15px;;
+    border-radius: 20px;
+}
+
+/*seccion3.2*/
+#seccion3_2 h3{
+    text-align: center;
+    color: #3b9ad5;
+    letter-spacing: 2px;
+    border-color: #3b9ad5;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin: 10px;
+}
+#seccion3_2 div{
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#seccion3_2 div div{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#seccion3_2 div div ol{
+    margin-right: 15px;
+    color: #3b5fd5;
+}
+#seccion3_2 #flecha{
+    width: 100px;
+}
+#seccion3_2 img{
+    width: 600px; 
+    border-radius: 20px;
+}
+
+#seccion3_2 p{
+    text-indent: 40px;
+}
+
+/*Seccion 4*/
+/*Introduccion*/
+#importancia img{
+    width: 100px;
+}
+#importancia1{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#introduccion{
+    display: flex;
+}
+#introduccion div{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #3b5fd5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #cbebfd;
+}
+#introduccion img{
+    border-radius: 20px;
+    width: 300px; 
+}
+/*Acciones*/
+#acciones{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    padding: 20px;
+}
+#acciones h3{
+    border-style: solid;
+    border-color: #3b9ad5;
+    border-top-width: 0; 
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #3b9ad5;
+}
+#acciones p{
+    padding-top: 10px;
+}
+#acciones ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#acciones li{
+    width: 700px;
+}
+#acciones li strong{
+    color: #3b5fd5;
+}
+#acciones p{
+    text-indent: 40px;
+}
+/*Ejemplo*/
+#ejemploImportancia{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    padding: 20px;
+}
+#divEj1{
+    display: flex;
+}
+#divEj1 p{
+    width: 320px;
+    text-indent: 40px;
+    margin-left: 0;
+}
+#divEj1 img{
+    width: 300px; 
+    border-radius: 20px;
+}
+#pEj1{
+    text-indent: 40px;
+    margin-top: 5px;
+}
+#pEj1 strong{
+    color: #3b5fd5;
+}
+
+/*Conclusión*/
+#conclusion{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    padding: 20px;
+    text-indent: 40px;
+}
+
+/*Más información de interes*/
+#referencias div{
+    margin-top: 20px;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(34, 88, 226);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+table{
+    background-color: #3b5fd5;
+}
+td{
+    background-color: white;
+}
+th{
+    background-color: #cbebfd;
+}
+
+#referencias table, tr, th, td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3b5fd5;
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+td a{
+    font-weight: 100;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 50px; 
+    margin-bottom: 20px;
+    background-color: #3b5fd5;
+    color: white;
+    line-height: 25px;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer div{
+    margin-bottom: 10px;
+}
+
+
